@@ -60,13 +60,13 @@ pod 'BrazeUI', :git => 'https://github.com/braze-inc/braze-swift-sdk-xcode-14-3-
 
 <!-- Table generated with https://www.tablesgenerator.com/markdown_tables -->
 
-|                                                                                                                             |  iOS  |     tvOS      | macCatatyst |
-| --------------------------------------------------------------------------------------------------------------------------- | :---: | :-----------: | :---------: |
-| **BrazeKit**</br> _Main SDK library providing support for [analytics] and [push notifications]._                            |   ✅   | ✅<sup>1</sup> |      ✅      |
-| **BrazeUI**</br> _Braze-provided user interface library for [In-App Messages] and [Content Cards]._                         |   ✅   |      n/a      |      ✅      |
-| **BrazeLocation**</br> _Location library providing support for [location analytics and geofence monitoring]._               |   ✅   | ✅<sup>2</sup> |      ✅      |
-| **BrazeNotificationService**</br> _Notification service extension library providing support for [rich push notifications]._ |   ✅   |      n/a      |      ✅      |
-| **BrazePushStory**</br> _Notification content extension library providing support for [Push Stories]._                      |   ✅   |      n/a      |      ✅      |
+|                                                                                                                             | iOS |     tvOS      | macCatatyst |
+|-----------------------------------------------------------------------------------------------------------------------------|:---:|:-------------:|:-----------:|
+| **BrazeKit**</br> _Main SDK library providing support for [analytics] and [push notifications]._                            |  ✅  | ✅<sup>1</sup> |      ✅      |
+| **BrazeUI**</br> _Braze-provided user interface library for [In-App Messages] and [Content Cards]._                         |  ✅  |      n/a      |      ✅      |
+| **BrazeLocation**</br> _Location library providing support for [location analytics and geofence monitoring]._               |  ✅  | ✅<sup>2</sup> |      ✅      |
+| **BrazeNotificationService**</br> _Notification service extension library providing support for [rich push notifications]._ |  ✅  |      n/a      |      ✅      |
+| **BrazePushStory**</br> _Notification content extension library providing support for [Push Stories]._                      |  ✅  |      n/a      |      ✅      |
 
 <sup>1</sup> _Push notifications not supported on tvOS_</br>
 <sup>2</sup> _Geofence monitoring not supported on tvOS_
@@ -82,6 +82,16 @@ pod 'BrazeUI', :git => 'https://github.com/braze-inc/braze-swift-sdk-xcode-14-3-
 ## Examples
 
 Explore our [examples project](/Examples) which showcases multiple features' integrations.
+
+## Wrapper Support
+
+| **Wrapper SDK** | Swift SDK Support | Release Version |
+|-----------------|-------------------|-----------------|
+| React Native    | ✅                 | v2.0.0          |
+| Flutter         | ✅                 | v3.0.0          |
+| Cordova         | ✅                 | v2.33.0         |
+| Xamarin         | In Progress       | TBD             |
+| Unity           | In Progress       | TBD             |
 
 ## `Appboy-iOS-SDK`
 
