@@ -47,8 +47,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "BrazeKit",
-      url: "https://github.com/braze-inc/braze-swift-sdk-xcode-14-3-preview/releases/download/5.11.2/BrazeKit.zip",
-      checksum: "be4024de17b76d5fd2a044b63686e89159691815a060b492040ba3fef3be97fb"
+      url: "https://github.com/braze-inc/braze-swift-sdk-xcode-14-3-preview/releases/download/5.12.0/BrazeKit.zip",
+      checksum: "d1b08c7c705b43a3c2a3d7e226955c054efaf05919f423a45794e788890744b1"
     ),
     .target(
       name: "BrazeKitResources",
@@ -65,18 +65,18 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BrazeLocation",
-      url: "https://github.com/braze-inc/braze-swift-sdk-xcode-14-3-preview/releases/download/5.11.2/BrazeLocation.zip",
-      checksum: "f5bceb243e4ca0bf32829b1dc7e29cee2451dee54b449f7990e145ee58b38058"
+      url: "https://github.com/braze-inc/braze-swift-sdk-xcode-14-3-preview/releases/download/5.12.0/BrazeLocation.zip",
+      checksum: "e81e98b91c7ef867771a9537240b7ebdddf514d379e6ac7afa94dde492069986"
     ),
     .binaryTarget(
       name: "BrazeNotificationService",
-      url: "https://github.com/braze-inc/braze-swift-sdk-xcode-14-3-preview/releases/download/5.11.2/BrazeNotificationService.zip",
-      checksum: "1bcb1926b5c829828800b49d925f53e6bbfe11593182ac661d4ebd88c9865074"
+      url: "https://github.com/braze-inc/braze-swift-sdk-xcode-14-3-preview/releases/download/5.12.0/BrazeNotificationService.zip",
+      checksum: "e0c0c79557ca7d5eaa7b262de8a9b1bb440c9d03280829b5d6fddd0584e1a26e"
     ),
     .binaryTarget(
       name: "BrazePushStory",
-      url: "https://github.com/braze-inc/braze-swift-sdk-xcode-14-3-preview/releases/download/5.11.2/BrazePushStory.zip",
-      checksum: "15c7ac9ccaaf43f0ea46487fcba3319dd3da71a2d9097e3bf608aaa160cacd6e"
+      url: "https://github.com/braze-inc/braze-swift-sdk-xcode-14-3-preview/releases/download/5.12.0/BrazePushStory.zip",
+      checksum: "48a0b26ba39ae14164d7a4f6c150bcc2ca6d9841c6b561095bc0200afac92779"
     ),
     .target(
       name: "BrazeKitCompat",

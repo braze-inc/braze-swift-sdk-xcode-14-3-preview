@@ -31,11 +31,11 @@ Simply update the repository url in your dependencies to point to this repositor
 
 ### CocoaPods
 
-Append the `:git` directive to your pod declaration, and point it to this repository.
+In your pod declaration for each Braze library, append the `:podspec` directive with the URL for its corresponding Podspec file. You may refer to the example below for the URL template.
 
 ```ruby
-pod 'BrazeKit', :git => 'https://github.com/braze-inc/braze-swift-sdk-xcode-14-3-preview'
-pod 'BrazeUI', :git => 'https://github.com/braze-inc/braze-swift-sdk-xcode-14-3-preview'
+pod 'BrazeKit', :podspec => 'https://raw.githubusercontent.com/braze-inc/braze-swift-sdk-xcode-14-3-preview/{braze-sdk-version}/BrazeKit.podspec'
+pod 'BrazeUI', :podspec => 'https://raw.githubusercontent.com/braze-inc/braze-swift-sdk-xcode-14-3-preview/{braze-sdk-version}/BrazeUI.podspec'
 ...
 ```
 
@@ -51,6 +51,7 @@ pod 'BrazeUI', :git => 'https://github.com/braze-inc/braze-swift-sdk-xcode-14-3-
   - Mac Catalyst 13.0+
   - tvOS 11.0+
 - Xcode 14.3 Beta (14E5197f)
+- This repository follows [Semantic Versioning](https://semver.org/)
 
 ## Package Managers
 - Swift Package Manager
