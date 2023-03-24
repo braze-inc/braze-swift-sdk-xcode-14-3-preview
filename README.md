@@ -52,7 +52,7 @@ pod 'BrazeUI', :podspec => 'https://raw.githubusercontent.com/braze-inc/braze-sw
   - iOS 13.0+
   - Mac Catalyst 13.0+
   - tvOS 11.0+
-- Xcode 14.3 Beta (14E5197f)
+- Xcode 14.3 Release Candidate (14E222a)
 - This repository follows [Semantic Versioning](https://semver.org/)
 
 ## Package Managers
