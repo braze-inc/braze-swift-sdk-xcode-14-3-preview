@@ -21,9 +21,11 @@
 
 # ⚠️ Important
 
-This repository provides a version of the Braze Swift SDK compatible with Xcode 14.3 beta. This version is not intended for production use. Please use the [main repository](https://github.com/braze-inc/braze-swift-sdk) for production use.
+This repository provides a version of the Braze Swift SDK compatible with Xcode 14.3 Release Candidate (14E222a).
 
-Xcode 14.3 beta currently has a bug that prevents support for iOS 11 and iOS 12. We expect this issue to be resolved in a future beta release. Until then, this repository increases the minimum deployment target for iOS to iOS 13.
+Xcode 14.3 RC currently has a bug that prevents support for iOS 11 and iOS 12. We expect this issue to be resolved in a future release candidate version. Until then, this repository increases the minimum deployment target for iOS to iOS 13.
+
+Follow this [issue](https://github.com/braze-inc/braze-swift-sdk/issues/52) for updates.
 
 ### SwiftPM
 
